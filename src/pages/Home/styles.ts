@@ -33,3 +33,21 @@ left: 165px;
 
 
 `
+
+export const Container = styled.div`
+  position: absolute;
+  display: flex;
+
+  .Banner{
+    position: absolute;
+    display: flex;
+    height: 50vh;
+    width: 620px;
+    border-radius: 0;
+   
+    background-size: cover;
+    right: 5px;
+    top: 150px;
+    left: 75vh;
+  }
+`
