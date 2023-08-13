@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'; // Importe o Link para navegação corr
 export default function Header() {
   return (
     <HeaderContainer>
-      <img src={PokemonImage} alt="" />
+      <img src={PokemonImage} alt="" className='imgPokemon'/>
       <Nav>
         <NavItem>
           <Link to="/Home">Home</Link>
